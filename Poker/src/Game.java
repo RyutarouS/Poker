@@ -1,8 +1,20 @@
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
+/*
+*ゲームの進行のためのクラス
+ */
 
 public class Game {
+
+
+    /*
+     *カード交換
+     * @return  交換するカード番号リスト　＜LIST型＞
+     *
+     * 入力する値は1スタート。保存される値は0スタート
+     */
+
     public static List<Integer> Exchange() {
         List<Integer> change_nums = new ArrayList<>();
         Scanner sc = new Scanner(System.in);
